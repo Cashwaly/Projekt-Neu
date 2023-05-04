@@ -354,6 +354,7 @@ ul {
 .footer {
 	background-color: #24262b;
 	width: 100%;
+	margin-top: 30px;
 	position: fixed;
 	left: 0;
 	bottom: 0;
