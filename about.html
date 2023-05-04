@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link type="text/javascript" href="/js/script.js">
-    <link href="https://fonts.googleaps.com/css2?
-    famly=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>Document</title>
 </head>
-
-<body>
-    <header>
+<header>
     <div class="">
         <div class="navbar">
             <img src="/pictures/icon.jpg" class="icon">
@@ -33,34 +32,43 @@
             </nav>
         </div>
     </div>
-    </header>
+</header>
+
+<body>
     <div>
-        <h1></h1>
+        <h1 class="contact1">Kontaktformular</h1>
+        <input type="text" name="first" value="" placeholder="Vorname" required id="vorname">
+        <input type="text" name="last" value="" placeholder="Nachname" required id="nachname">
+        <input type="email" name="email" value="" placeholder="E-Mail Adresse" required id="email">
+        <textarea name="message" placeholder="Nachricht eingeben" cols="60" rows="5" required autocomplete="off"
+            id="textfeld"></textarea>
+        <button type="submit" class="submit">Senden</button>
     </div>
-    <footer class="footer">
-        <div class="container2">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <h4>Kontakt</h4>
-                    <ul class="contact">
-                        EgyptTours <br>
-                        4 Nasr Road cross Makram Ebeid <br>
-                        Nasr City – Cairo
-                        Egypt  
-                    </ul class>
-                </div>    
-                <div class="footer-col1">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>  
+    <script type="text/javascript" src="/js/script.js"></script>
+</body>
+<footer class="footer1">
+    <div class="container2">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <ul class="contact">
+                    EgyptTours <br>
+                    4 Nasr Road cross Makram Ebeid <br>
+                    Nasr City – Cairo
+                    Egypt
+                </ul class>
+            </div>
+            <div class="footer-col1">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
         </div>
-    </footer>    
-</body>
+    </div>
+</footer>
 
 </html>
