@@ -91,6 +91,8 @@ body {
 	padding-left: 8%;
 	padding-right: 8%;
 	box-sizing: border-box;
+	border-bottom: 1px solid red;
+
 }
 
 .icon {
@@ -551,7 +553,7 @@ ul {
 		width: 380px;
 	}
 }
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1350px){
 	nav ul li {
 	display: block;
 }
